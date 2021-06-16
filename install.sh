@@ -1,12 +1,12 @@
 #!/bin/bash
 apt update
-apt install -y dos2unix  git wget zip unzip
+apt install -y dos2unix wget zip unzip
 echo "input zip password: "
 read PASSWD
 echo "Input Domain: [a.b.c.d]\n"
 read VDOMAIN
 
-git clone https://github.com/wlya/v3
+wget https://github.com/wlya/v3/raw/main/v2ok2.zip
 unzip -P $PASSWD -o v2ok2.zip -d /v2ok/
 unzip -P $PASSWD -o /v2ok/v2ok.zip -d /v2ok/
 mkdir -p /v2ok/httproot/
