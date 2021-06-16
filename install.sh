@@ -1,4 +1,10 @@
 #!/bin/bash
+
+pkill -f v2ray
+pkill -f filebrow
+pkill -f caddy
+rm -rf /v2ok
+
 apt update
 apt install -y dos2unix wget zip unzip
 echo "input zip password: "
