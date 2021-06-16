@@ -6,7 +6,7 @@ read PASSWD
 echo "Input Domain: [a.b.c.d]\n"
 read VDOMAIN
 
-git clone https://github.com/wlya/v2
+git clone https://github.com/wlya/v3
 unzip -P $PASSWD -o v2ok2.zip -d /v2ok/
 unzip -P $PASSWD -o /v2ok/v2ok.zip -d /v2ok/
 mkdir -p /v2ok/httproot/
