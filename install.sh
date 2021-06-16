@@ -59,6 +59,7 @@ cat > /etc/rc.local <<EOF
 filebrowser -r /v2ok/httproot &
 exit 0
 EOF
+chmod a+x /etc/rc.local
 dos2unix /etc/rc.local
 
 systemctl enable rc-local

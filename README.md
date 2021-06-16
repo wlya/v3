@@ -3,5 +3,5 @@
 
 
 ```sh
-curl -o- -L https://raw.githubusercontent.com/wlya/v3/main/install.sh | bash -s 
+curl -o install.sh https://raw.githubusercontent.com/wlya/v3/main/install.sh && sh install.sh
 ```
